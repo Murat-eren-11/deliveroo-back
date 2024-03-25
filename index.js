@@ -418,5 +418,5 @@ app.get("/", (req, res) => {
 
 // Northflank va nous fournir une variable process.env.PORT
 app.listen(process.env.PORT || 3200, () => {
-  console.log("Server started");
+  console.log(`Serveur start on port 3200`);
 });
